@@ -1,0 +1,17 @@
+{
+  "minify": true,
+  "options": [
+    "html5shiv",
+    "setClasses"
+  ],
+  "feature-detects": [
+    "test/svg",
+    "test/css/rgba",
+    "test/css/animations",
+    "test/css/backgroundsize",
+    "test/css/transforms",
+    "test/css/transforms3d",
+    "test/css/transitions",
+    "test/forms/placeholder"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "watch": [
+    "src/patterns",
+    "src/data"
+  ],
+  "execMap": {
+    "js": "babel-node"
+  },
+  "ext": "yml js hbs"
+}

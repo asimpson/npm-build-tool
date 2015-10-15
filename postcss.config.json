@@ -1,0 +1,5 @@
+{
+  "autoprefixer": {
+    "browsers": "> 5%, Android 2.3"
+  }
+}

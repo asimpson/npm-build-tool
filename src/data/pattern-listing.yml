@@ -1,0 +1,9 @@
+patterns:
+  atoms:
+    - 'button'
+  molecules:
+    - 'search'
+  organisms:
+    - 'header'
+  pages:
+    - 'home'

@@ -1,0 +1,56 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>npm as a build tool</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <link rel="stylesheet" href="/css/base.css"/>
+</head>
+  <body>
+    {{#each patterns}}
+      {{#is @key 'atoms'}}
+        <h1>Atoms:</h1>
+        <ul class="list">
+        {{#each this}}
+          <li>
+            <a href="/patterns/atoms/{{this}}.html">{{this}}</a>
+          </li>
+        {{/each}}
+        </ul>
+      {{/is}}
+      {{#is @key 'molecules'}}
+        <h1>Molecules:</h1>
+        <ul class="list">
+        {{#each this}}
+          <li>
+            <a href="/patterns/molecules/{{this}}.html">{{this}}</a>
+          </li>
+        {{/each}}
+        </ul>
+      {{/is}}
+      {{#is @key 'organisms'}}
+        <h1>Organisms:</h1>
+        <ul class="list">
+        {{#each this}}
+          <li>
+            <a href="/patterns/organisms/{{this}}.html">{{this}}</a>
+          </li>
+        {{/each}}
+        </ul>
+      {{/is}}
+      {{#is @key 'pages'}}
+        <h1>Pages:</h1>
+        <ul class="list">
+        {{#each this}}
+          <li>
+            <a href="/patterns/pages/{{this}}.html">{{this}}</a>
+          </li>
+        {{/each}}
+        </ul>
+      {{/is}}
+    {{/each}}
+    {{{ body }}}
+  </body>
+</html>
